@@ -1,0 +1,20 @@
+{
+  "name": "sensiolabs/sfpack-php",
+  "description": "PHP for Symfony Pack training exercise",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Benjamin Zaslavsky",
+      "email": "benjamin.zaslavsky@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require": {
+    "php": "8.2"
+  }
+}
